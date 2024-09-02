@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap');
+
+body {
+    font-family: 'Domine', serif;
+    color: #333;
+    background-color: #fcecdf;
+}
+
+h1 {
+    color: #9e122c;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Sidebar styles */
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #fbcb77, #f99d90, #ee6a43, #9e122c, #fcecdf);
+    color: #fffdf0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3,
+[data-testid="stSidebar"] p,
+[data-testid="stSidebar"] .stButton button {
+    font-family: 'Domine', serif;
+    color: #fffdf0;
+}
+
+a {
+    color: #ee6a43;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #f5f5dc;
+    text-decoration: underline;
+}
+
+[data-testid="stSidebar"] .stButton button {
+    background-color: #ee6a43;
+    color: #fffdf0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+[data-testid="stSidebar"] .stButton button:hover {
+    background-color: #cdc69a;
+    color: #290102;
+}
+
+.stTextArea textarea {
+    border: 2px solid #ee6a43;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+    color: #290102;
+}
+
+.stFileUploader {
+    font-size: 1.2em;
+    padding: 15px;
+    border: 2px solid #ee6a43;
+    border-radius: 8px;
+    background-color: #fcecdf;
+}
+
+.stFileUploader button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+}
+
+[data-testid="stSuccess"] {
+    background-color: #77fb9f;
+    color: #333;
+    border-left: 5px solid #ee6a43;
+}
+
+[data-testid="stWarning"] {
+    background-color: #f99d90;
+    color: #333;
+    border-left: 5px solid #ee6a43;
+}
+
+[data-testid="stError"] {
+    background-color: #9e122c;
+    color: #fff;
+    border-left: 5px solid #ee6a43;
+}
+
+[data-testid="stFooter"] {
+    text-align: center;
+    color: #9e122c;
+    font-size: 0.9em;
+    padding: 20px 0;
+}
