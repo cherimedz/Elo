@@ -3,7 +3,7 @@ from googletrans import Translator
 
 st.set_page_config(page_title="Elo Demo", page_icon="🌍", layout="wide")
 
-with open("translate_css.css") as css_file:
+with open("elo.css") as css_file:
     st.markdown(f"<style>{css_file.read()}</style>", unsafe_allow_html=True)
 
 st.title("🌍 Welcome to Elo, the Machine Translation Demo App! 🌍")
