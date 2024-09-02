@@ -1,7 +1,7 @@
 # Elo 🌍
 
 Elo, short for Elooquence is a demo language translation app designed to bridge communication gaps with ease and elegance. 
-With support for multiple Indian languages, Eloquence offers accurate and fluid translations in a visually pleasing interface.
+With support for multiple Indian languages, Elo offers accurate and fluid translations in a visually pleasing interface.
 
 ## Features
 - **Multi-Language Support**: Translate text into 11 Indian languages, including Malayalam, Hindi, Tamil, and more.
