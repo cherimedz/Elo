@@ -9,7 +9,7 @@ with open("elo.css") as css_file:
 st.title("🌍 Welcome to Elo, the Machine Translation Demo App! 🌍")
 
 st.markdown("""
-**Elo** is a simple translation app that allows you to translate text into various languages.
+**Elo** is a user-friendly translation app designed to make language barriers a thing of the past. Whether you're traveling, studying, or simply curious about other languages, Elo provides quick and accurate translations in a variety of languages at your fingertips.
 
 **Key Features:**
 - Translate text into a selection of languages.
