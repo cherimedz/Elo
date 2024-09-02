@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap');
+
+body {
+    font-family: 'Domine', serif;
+    color: #333;
+    background-color: #fcecdf;
+}
+
+h1 {
+    color: #9e122c;
+}
+
+.css-1lcbmhc {
+    background: linear-gradient(180deg, #fbcb77, #f99d90, #ee6a43, #9e122c, #fcecdf) !important;
+    color: #fff !important;
+}
+
+.css-1lcbmhc .css-1lcbmhc {
+    background: transparent !important;
+}
+
+.sidebar select {
+    background-color: #f99d90;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+textarea {
+    border: 2px solid #ee6a43;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    resize: none;
+}
+
+button {
+    background-color: #ee6a43;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9e122c;
+}
+
+a {
+    color: #ee6a43;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f5f5dc;
+}
+
+.stAlert-success {
+    background-color: #fbcb77;
+    color: #333;
+    border-left: 5px solid #ee6a43;
+}
+
+.stAlert-error {
+    background-color: #9e122c;
+    color: #fff;
+    border-left: 5px solid #ee6a43;
+}
+
+.stAlert-warning {
+    background-color: #f99d90;
+    color: #333;
+    border-left: 5px solid #ee6a43;
+}
