@@ -4,6 +4,10 @@ body {
     font-family: 'Domine', serif;
     color: #333;
     background-color: #fcecdf;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
 }
 
 h1 {
@@ -11,6 +15,11 @@ h1 {
     font-size: 2.5em;
     text-align: center;
     margin-top: 20px;
+}
+
+.markdown-text {
+    color: #333;
+    line-height: 1.6;
 }
 
 /* Sidebar styles */
@@ -63,19 +72,6 @@ a:hover {
     padding: 10px;
     font-size: 1em;
     color: #290102;
-}
-
-.stFileUploader {
-    font-size: 1.2em;
-    padding: 15px;
-    border: 2px solid #ee6a43;
-    border-radius: 8px;
-    background-color: #fcecdf;
-}
-
-.stFileUploader button {
-    font-size: 1.2em;
-    padding: 10px 20px;
 }
 
 [data-testid="stSuccess"] {
