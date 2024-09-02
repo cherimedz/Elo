@@ -22,7 +22,6 @@ h1 {
     line-height: 1.6;
 }
 
-/* Sidebar styles */
 [data-testid="stSidebar"] {
     background: linear-gradient(180deg, #fcecdf, #f99d90, #ee6a43, #9e122c, #290102);
     color: #fffdf0;
@@ -100,3 +99,4 @@ a:hover {
     padding: 20px 0;
     background-color: #fcecdf;
 }
+
