@@ -1,6 +1,6 @@
-# Eloquence 🌍
+# Elo 🌍
 
-Eloquence is a demo language translation app designed to bridge communication gaps with ease and elegance. 
+El, short for Elooquence is a demo language translation app designed to bridge communication gaps with ease and elegance. 
 With support for multiple Indian languages, Eloquence offers accurate and fluid translations in a visually pleasing interface.
 
 ## Features
