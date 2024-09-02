@@ -63,9 +63,7 @@ if st.button('Translate'):
         st.warning("Please enter some text to translate.")
 
 with st.sidebar:
-    st.header("🚀 Quick Actions")
-
-    st.subheader("📜 Previous Translations History")
+    st.header("📜 Previous Translations History")
     if st.session_state.previous_translations:
         for translation in st.session_state.previous_translations:
             st.markdown(f"- {translation}")
