@@ -1,6 +1,6 @@
 # Elo 🌍
 
-Elo, short for Elooquence is a demo language translation app designed to bridge communication gaps with ease and elegance. 
+Elo, short for Elooquence is a language translation app designed to bridge communication gaps with ease and elegance. 
 With support for multiple Indian languages, Elo offers accurate and fluid translations in a visually pleasing interface.
 
 ## Features
